@@ -22,7 +22,10 @@ class RVClotheListAdapter(var clothes: List<Clothe>): RecyclerView.Adapter<Cloth
 
 class ClotheVH(private val binding: ItemClotheBinding) : RecyclerView.ViewHolder(binding.root){
     fun bind(clothe: Clothe){
-        binding.imageView.setImageResource(R.drawable.dresspng)
+        Glide
+            .with(binding.root.context)
+            .load(clothe.image)
+            .into(binding.imageView)
         binding.txtTitulo.text= clothe.title
         binding.txtPrecio.text = clothe.price
     }

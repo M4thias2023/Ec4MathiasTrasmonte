@@ -7,6 +7,7 @@
     android:background="@drawable/background_gradient"
     tools:context=".views.SplashActivity">
 
+
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline_medium_horizontal"
         android:layout_width="wrap_content"

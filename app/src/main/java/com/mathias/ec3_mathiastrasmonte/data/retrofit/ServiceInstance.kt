@@ -12,4 +12,7 @@ object ServiceInstance {
         .build()
 
     fun getClotheService(): ClotheService = retrofit.create(ClotheService::class.java)
+
+
+
 }
