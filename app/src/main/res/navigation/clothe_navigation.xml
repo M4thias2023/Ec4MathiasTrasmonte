@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clothe_navigation"
+    app:startDestination="@id/clotheListFragment">
+
+    <fragment
+        android:id="@+id/clotheFavoriteFragment"
+        android:name="com.mathias.ec3_mathiastrasmonte.views.fragments.ClotheFavoriteFragment"
+        android:label="fragment_clothe_favorite"
+        tools:layout="@layout/fragment_clothe_favorite" >
+        <action
+            android:id="@+id/action_clotheFavoriteFragment_to_clotheDetailFragment"
+            app:destination="@id/clotheDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.mathias.ec3_mathiastrasmonte.views.fragments.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/clotheListFragment"
+        android:name="com.mathias.ec3_mathiastrasmonte.views.fragments.ClotheListFragment"
+        android:label="fragment_clothe_list"
+        tools:layout="@layout/fragment_clothe_list" >
+        <action
+            android:id="@+id/action_clotheListFragment_to_clotheDetailFragment"
+            app:destination="@id/clotheDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/clotheDetailFragment"
+        android:name="com.mathias.ec3_mathiastrasmonte.views.fragments.ClotheDetailFragment"
+        android:label="fragment_clothe_detail"
+        tools:layout="@layout/fragment_clothe_detail" />
+</navigation>
