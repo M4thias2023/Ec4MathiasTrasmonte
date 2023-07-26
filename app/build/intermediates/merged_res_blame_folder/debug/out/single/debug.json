@@ -24,16 +24,8 @@
         "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\layout\\fragment_clothe_view_model.xml"
     },
     {
-        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
         "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\drawable-v24\\ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\layout_fragment_clothe_list.xml.flat",
-        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\layout\\fragment_clothe_list.xml"
     },
     {
         "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\layout_activity_login.xml.flat",
@@ -44,44 +36,36 @@
         "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\xml\\backup_rules.xml"
-    },
-    {
-        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\mipmap-xxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\drawable_background_gradient.xml.flat",
-        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\drawable\\background_gradient.xml"
-    },
-    {
-        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\layout_activity_splash.xml.flat",
-        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\layout\\activity_splash.xml"
-    },
-    {
         "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\layout_item_clothe.xml.flat",
         "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\layout\\item_clothe.xml"
+    },
+    {
+        "merged": "com.mathias.ec3_mathiastrasmonte.app-merged_res-53:/layout_fragment_clothe_favorite.xml.flat",
+        "source": "com.mathias.ec3_mathiastrasmonte.app-main-55:/layout/fragment_clothe_favorite.xml"
+    },
+    {
+        "merged": "com.mathias.ec3_mathiastrasmonte.app-merged_res-53:/layout_activity_splash.xml.flat",
+        "source": "com.mathias.ec3_mathiastrasmonte.app-main-55:/layout/activity_splash.xml"
     },
     {
         "merged": "com.mathias.ec3_mathiastrasmonte.app-merged_res-53:/layout_fragment_info.xml.flat",
         "source": "com.mathias.ec3_mathiastrasmonte.app-main-55:/layout/fragment_info.xml"
     },
     {
-        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\drawable_baseline_checklist_24.xml.flat",
-        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\drawable\\baseline_checklist_24.xml"
+        "merged": "com.mathias.ec3_mathiastrasmonte.app-merged_res-53:/layout_activity_login.xml.flat",
+        "source": "com.mathias.ec3_mathiastrasmonte.app-main-55:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.mathias.ec3_mathiastrasmonte.app-merged_res-53:/layout_activity_main.xml.flat",
+        "source": "com.mathias.ec3_mathiastrasmonte.app-main-55:/layout/activity_main.xml"
     },
     {
         "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\drawable_baseline_favorite_24.xml.flat",
-        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\drawable\\baseline_favorite_24.xml"
-    },
-    {
-        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\drawable_dresspng.png.flat",
-        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\drawable\\dresspng.png"
+        "merged": "com.mathias.ec3_mathiastrasmonte.app-merged_res-53:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.mathias.ec3_mathiastrasmonte.app-main-55:/drawable/ic_launcher_background.xml"
     },
     {
         "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\drawable_baseline_info_24.xml.flat",
@@ -92,32 +76,16 @@
         "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.mathias.ec3_mathiastrasmonte.app-merged_res-53:/drawable_baseline_checklist_24.xml.flat",
+        "source": "com.mathias.ec3_mathiastrasmonte.app-main-55:/drawable/baseline_checklist_24.xml"
     },
     {
-        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.mathias.ec3_mathiastrasmonte.app-merged_res-53:/layout_item_clothe.xml.flat",
+        "source": "com.mathias.ec3_mathiastrasmonte.app-main-55:/layout/item_clothe.xml"
     },
     {
-        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\layout_fragment_clothe_favorite.xml.flat",
-        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\layout\\fragment_clothe_favorite.xml"
-    },
-    {
-        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\mipmap-hdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\mipmap-mdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\drawable_baseline_list_24.xml.flat",
-        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\drawable\\baseline_list_24.xml"
+        "merged": "com.mathias.ec3_mathiastrasmonte.app-merged_res-53:/navigation_clothe_navigation.xml.flat",
+        "source": "com.mathias.ec3_mathiastrasmonte.app-main-55:/navigation/clothe_navigation.xml"
     },
     {
         "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\layout_activity_main.xml.flat",
@@ -142,5 +110,101 @@
     {
         "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.mathias.ec3_mathiastrasmonte.app-merged_res-53:/layout_fragment_clothe_list.xml.flat",
+        "source": "com.mathias.ec3_mathiastrasmonte.app-main-55:/layout/fragment_clothe_list.xml"
+    },
+    {
+        "merged": "com.mathias.ec3_mathiastrasmonte.app-merged_res-53:/drawable_baseline_list_24.xml.flat",
+        "source": "com.mathias.ec3_mathiastrasmonte.app-main-55:/drawable/baseline_list_24.xml"
+    },
+    {
+        "merged": "com.mathias.ec3_mathiastrasmonte.app-merged_res-53:/drawable_background_gradient.xml.flat",
+        "source": "com.mathias.ec3_mathiastrasmonte.app-main-55:/drawable/background_gradient.xml"
+    },
+    {
+        "merged": "com.mathias.ec3_mathiastrasmonte.app-merged_res-53:/drawable_baseline_favorite_24.xml.flat",
+        "source": "com.mathias.ec3_mathiastrasmonte.app-main-55:/drawable/baseline_favorite_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\layout_fragment_clothe_list.xml.flat",
+        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\layout\\fragment_clothe_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\drawable_background_gradient.xml.flat",
+        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\drawable\\background_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "com.mathias.ec3_mathiastrasmonte.app-merged_res-53:/menu_bnv_menu.xml.flat",
+        "source": "com.mathias.ec3_mathiastrasmonte.app-main-55:/menu/bnv_menu.xml"
+    },
+    {
+        "merged": "com.mathias.ec3_mathiastrasmonte.app-merged_res-53:/drawable_baseline_info_24.xml.flat",
+        "source": "com.mathias.ec3_mathiastrasmonte.app-main-55:/drawable/baseline_info_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\drawable_baseline_checklist_24.xml.flat",
+        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\drawable\\baseline_checklist_24.xml"
+    },
+    {
+        "merged": "com.mathias.ec3_mathiastrasmonte.app-merged_res-53:/layout_fragment_clothe_detail.xml.flat",
+        "source": "com.mathias.ec3_mathiastrasmonte.app-main-55:/layout/fragment_clothe_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\drawable_baseline_favorite_24.xml.flat",
+        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\drawable\\baseline_favorite_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\drawable_dresspng.png.flat",
+        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\drawable\\dresspng.png"
+    },
+    {
+        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.mathias.ec3_mathiastrasmonte.app-merged_res-53:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.mathias.ec3_mathiastrasmonte.app-main-55:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\layout_fragment_clothe_favorite.xml.flat",
+        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\layout\\fragment_clothe_favorite.xml"
+    },
+    {
+        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-merged_res-53:\\drawable_baseline_list_24.xml.flat",
+        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-55:\\drawable\\baseline_list_24.xml"
     }
 ]

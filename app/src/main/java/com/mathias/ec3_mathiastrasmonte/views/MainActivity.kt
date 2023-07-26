@@ -19,6 +19,4 @@ class MainActivity : AppCompatActivity() {
         binding.clotheBnv.setupWithNavController(navController);
     }
 
-
-
 }

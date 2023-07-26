@@ -20,8 +20,6 @@ class ClothesListViewModel : ViewModel() {
         clotheList.value = data
     }
 
-
-
     fun getClothesFromService(){
         viewModelScope.launch(Dispatchers.IO){
             val response = repository.getClothes()

@@ -14,4 +14,3 @@ dependencyResolutionManagement {
 }
 rootProject.name = "EC3_MathiasTrasmonte"
 include ':app'
-

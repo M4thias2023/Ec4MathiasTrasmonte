@@ -20,6 +20,7 @@ class RVClotheListAdapter(var clothes: List<Clothe>): RecyclerView.Adapter<Cloth
     }
 }
 
+
 class ClotheVH(private val binding: ItemClotheBinding) : RecyclerView.ViewHolder(binding.root){
     fun bind(clothe: Clothe){
         Glide
@@ -27,6 +28,6 @@ class ClotheVH(private val binding: ItemClotheBinding) : RecyclerView.ViewHolder
             .load(clothe.image)
             .into(binding.imageView)
         binding.txtTitulo.text= clothe.title
-        binding.txtPrecio.text = clothe.price
+        binding.txtPrecio.text = "S/.${clothe.price}"
     }
 }

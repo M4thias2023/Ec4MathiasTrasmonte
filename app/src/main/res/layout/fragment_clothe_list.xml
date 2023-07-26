@@ -7,7 +7,6 @@
     tools:context=".views.fragments.ClotheListFragment"
     >
 
-
     <!-- TODO: Update blank fragment layout -->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_clothe_list"

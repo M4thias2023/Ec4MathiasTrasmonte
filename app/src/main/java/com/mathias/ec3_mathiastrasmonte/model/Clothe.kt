@@ -6,6 +6,7 @@ data class Clothe(
     val price: String,
 )
 
+
 fun getData():List<Clothe>{
 return listOf(
     Clothe("","Polo Rojo","30.00"),

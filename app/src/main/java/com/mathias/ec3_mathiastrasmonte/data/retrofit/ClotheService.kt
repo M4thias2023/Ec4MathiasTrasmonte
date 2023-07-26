@@ -6,4 +6,5 @@ import retrofit2.http.GET
 interface ClotheService {
     @GET("4c4f4f66-d543-4d70-811d-9429e23d72aa")
     suspend fun getClothes(): ClotheListResponse
+
 }

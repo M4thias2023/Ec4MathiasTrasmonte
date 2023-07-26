@@ -21,4 +21,5 @@ class ExampleInstrumentedTest {
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
         assertEquals("com.mathias.ec3_mathiastrasmonte", appContext.packageName)
     }
+
 }

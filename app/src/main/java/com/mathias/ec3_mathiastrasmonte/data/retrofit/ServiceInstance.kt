@@ -10,9 +10,6 @@ object ServiceInstance {
         .client(OkHttpClient())
         .addConverterFactory(GsonConverterFactory.create())
         .build()
-
     fun getClotheService(): ClotheService = retrofit.create(ClotheService::class.java)
-
-
 
 }
