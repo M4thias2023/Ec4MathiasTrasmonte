@@ -5,6 +5,7 @@
     android:id="@+id/clothe_navigation"
     app:startDestination="@id/clotheListFragment">
 
+
     <fragment
         android:id="@+id/clotheFavoriteFragment"
         android:name="com.mathias.ec3_mathiastrasmonte.views.fragments.ClotheFavoriteFragment"

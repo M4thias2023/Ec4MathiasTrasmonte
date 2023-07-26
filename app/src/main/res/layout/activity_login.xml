@@ -32,7 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="EVALUACION CONTINUA 3"
-        android:textColor="@color/black"
+        android:textColor="@color/md_theme_light_onSurface"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@id/guideline_medium_horizontal"
@@ -78,7 +78,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/white"
+            android:background="@color/md_theme_light_onPrimary"
 
             android:inputType="textPassword" />
 
@@ -91,7 +91,7 @@
         android:layout_marginTop="35sp"
         android:padding="15sp"
         android:text="Iniciar sesión"
-        android:textColor="@color/white"
+        android:textColor="@color/md_theme_light_onPrimary"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/til_password"
         app:layout_constraintStart_toStartOf="@+id/til_password"

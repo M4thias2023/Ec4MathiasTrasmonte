@@ -6,6 +6,4 @@ data class ClotheListResponse(
 
     val clothes: List<Clothe>
 
-
-
 )

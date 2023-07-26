@@ -39,7 +39,6 @@ class LoginActivity : AppCompatActivity() {
             }
         }
     }
-
     private fun validateInputs(email:String , password:String): Boolean{
         val isEmailOk = email.isNotEmpty() && Patterns.EMAIL_ADDRESS.matcher(email).matches()
         val isPasswordOk = password.length >= 6

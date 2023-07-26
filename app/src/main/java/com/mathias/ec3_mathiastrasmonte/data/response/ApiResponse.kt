@@ -6,4 +6,5 @@ sealed class ApiResponse<T>(data: T?=null, exception:Exception?=null){
     data class Error<T>(val exception: Exception):ApiResponse<T>(null,exception)
 
 
+
 }

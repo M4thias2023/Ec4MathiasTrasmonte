@@ -141,7 +141,7 @@ MERGED from [com.google.android.play:core-common:2.0.2] C:\Users\mathi\.gradle\c
 	android:allowBackup
 		ADDED from D:\Android\AndroidStudioProjects\EC3_MathiasTrasmonte\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from D:\Android\AndroidStudioProjects\EC3_MathiasTrasmonte\app\src\main\AndroidManifest.xml:13:9-58
+		ADDED from D:\Android\AndroidStudioProjects\EC3_MathiasTrasmonte\app\src\main\AndroidManifest.xml:13:9-65
 	android:dataExtractionRules
 		ADDED from D:\Android\AndroidStudioProjects\EC3_MathiasTrasmonte\app\src\main\AndroidManifest.xml:8:9-65
 activity#com.mathias.ec3_mathiastrasmonte.views.SplashActivity

@@ -29,5 +29,6 @@ class ClotheVH(private val binding: ItemClotheBinding) : RecyclerView.ViewHolder
             .into(binding.imageView)
         binding.txtTitulo.text= clothe.title
         binding.txtPrecio.text = "S/.${clothe.price}"
+        binding.txtDescripcion.text = clothe.description
     }
 }

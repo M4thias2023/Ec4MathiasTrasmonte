@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:text="Hello World!"
         android:visibility="gone"
-        android:textColor="@color/black"
+        android:textColor="@color/md_theme_light_onSurface"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

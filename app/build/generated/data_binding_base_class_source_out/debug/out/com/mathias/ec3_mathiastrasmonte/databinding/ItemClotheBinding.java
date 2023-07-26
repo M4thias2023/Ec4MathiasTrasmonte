@@ -32,18 +32,22 @@ public final class ItemClotheBinding implements ViewBinding {
   public final LinearLayout linearLayout;
 
   @NonNull
+  public final TextView txtDescripcion;
+
+  @NonNull
   public final TextView txtPrecio;
 
   @NonNull
   public final TextView txtTitulo;
 
   private ItemClotheBinding(@NonNull CardView rootView, @NonNull Guideline guidelineMiddle,
-      @NonNull ImageView imageView, @NonNull LinearLayout linearLayout, @NonNull TextView txtPrecio,
-      @NonNull TextView txtTitulo) {
+      @NonNull ImageView imageView, @NonNull LinearLayout linearLayout,
+      @NonNull TextView txtDescripcion, @NonNull TextView txtPrecio, @NonNull TextView txtTitulo) {
     this.rootView = rootView;
     this.guidelineMiddle = guidelineMiddle;
     this.imageView = imageView;
     this.linearLayout = linearLayout;
+    this.txtDescripcion = txtDescripcion;
     this.txtPrecio = txtPrecio;
     this.txtTitulo = txtTitulo;
   }
@@ -93,6 +97,12 @@ public final class ItemClotheBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.txt_Descripcion;
+      TextView txtDescripcion = ViewBindings.findChildViewById(rootView, id);
+      if (txtDescripcion == null) {
+        break missingId;
+      }
+
       id = R.id.txt_Precio;
       TextView txtPrecio = ViewBindings.findChildViewById(rootView, id);
       if (txtPrecio == null) {
@@ -106,7 +116,7 @@ public final class ItemClotheBinding implements ViewBinding {
       }
 
       return new ItemClotheBinding((CardView) rootView, guidelineMiddle, imageView, linearLayout,
-          txtPrecio, txtTitulo);
+          txtDescripcion, txtPrecio, txtTitulo);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

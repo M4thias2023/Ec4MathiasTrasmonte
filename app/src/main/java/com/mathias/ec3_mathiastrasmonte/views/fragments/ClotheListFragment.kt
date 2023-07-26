@@ -15,12 +15,14 @@ class ClotheListFragment : Fragment() {
 
     private lateinit var binding: FragmentClotheListBinding
     private lateinit var viewModel: ClothesListViewModel
+    private lateinit var adapter: RVClotheListAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         viewModel = ViewModelProvider(requireActivity())[ClothesListViewModel::class.java]
     }
+
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -32,15 +34,16 @@ class ClotheListFragment : Fragment() {
     }
 
 
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val adapter = RVClotheListAdapter(listOf())
         binding.rvClotheList.adapter = adapter
         binding.rvClotheList.layoutManager =GridLayoutManager(requireContext(),1,RecyclerView.VERTICAL,false)
-        viewModel.clotheList.observe(requireActivity()){
-            adapter.clothes = it
-            adapter.notifyDataSetChanged()
+        viewModel.clothesList.observe(viewLifecycleOwner) { clothes ->
+            clothes?.let {
+                adapter.clothes = it
+                adapter.notifyDataSetChanged()
+            }
         }
         viewModel.getClothesFromService()
     }
