@@ -29,7 +29,7 @@ class LoginActivity : AppCompatActivity() {
 
             val email = binding.tilEmail.editText?.text.toString()
             val password = binding.tilPassword.editText?.text.toString()
-            if (email == "mathias123@gmail.com" && password == "1232003"){
+            if (email == "ejemplo@idat.edu.pe" && password == "123456"){
                 Toast.makeText(this,"Inicio de sesión correcto", Toast.LENGTH_SHORT).show()
                 val intent = Intent(this, MainActivity::class.java)
                 startActivity(intent)
