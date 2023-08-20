@@ -42,6 +42,7 @@ class FirebaseListFragment : Fragment() {
 
         viewModel.clothes.observe(viewLifecycleOwner, Observer { clothes ->
             adapter.updateData(clothes)
+            adapter.notifyDataSetChanged()
         })
 
         viewModel.getFirebaseList()

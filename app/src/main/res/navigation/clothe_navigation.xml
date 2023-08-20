@@ -45,7 +45,7 @@
         android:id="@+id/addClotheActivity"
         android:name="com.mathias.ec3_mathiastrasmonte.views.AddClotheActivity"
         android:label="activity_add_clothe"
-        tools:layout="@layout/activity_add_clothe" />
+        tools:layout="@layout/activity_add_clothe"/>
     <fragment
         android:id="@+id/firebaseListFragment"
         android:name="com.mathias.ec3_mathiastrasmonte.views.fragments.FirebaseListFragment"

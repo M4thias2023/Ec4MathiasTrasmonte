@@ -37,4 +37,6 @@ class FirestoreViewModel(application: Application) : AndroidViewModel(applicatio
             }
     }
 
+
+
 }

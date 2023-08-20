@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -25,6 +26,9 @@ public final class ActivityAddClotheBinding implements ViewBinding {
   public final Button btnAddClothe;
 
   @NonNull
+  public final ImageButton btnSelectImage;
+
+  @NonNull
   public final TextInputLayout tilClotheDescription;
 
   @NonNull
@@ -40,11 +44,12 @@ public final class ActivityAddClotheBinding implements ViewBinding {
   public final TextView titulo;
 
   private ActivityAddClotheBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnAddClothe,
-      @NonNull TextInputLayout tilClotheDescription, @NonNull TextInputLayout tilClothePrice,
-      @NonNull TextInputLayout tilClotheTittle, @NonNull TextInputLayout tilImgUrl,
-      @NonNull TextView titulo) {
+      @NonNull ImageButton btnSelectImage, @NonNull TextInputLayout tilClotheDescription,
+      @NonNull TextInputLayout tilClothePrice, @NonNull TextInputLayout tilClotheTittle,
+      @NonNull TextInputLayout tilImgUrl, @NonNull TextView titulo) {
     this.rootView = rootView;
     this.btnAddClothe = btnAddClothe;
+    this.btnSelectImage = btnSelectImage;
     this.tilClotheDescription = tilClotheDescription;
     this.tilClothePrice = tilClothePrice;
     this.tilClotheTittle = tilClotheTittle;
@@ -85,6 +90,12 @@ public final class ActivityAddClotheBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btn_select_image;
+      ImageButton btnSelectImage = ViewBindings.findChildViewById(rootView, id);
+      if (btnSelectImage == null) {
+        break missingId;
+      }
+
       id = R.id.til_clothe_description;
       TextInputLayout tilClotheDescription = ViewBindings.findChildViewById(rootView, id);
       if (tilClotheDescription == null) {
@@ -115,7 +126,7 @@ public final class ActivityAddClotheBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityAddClotheBinding((ConstraintLayout) rootView, btnAddClothe,
+      return new ActivityAddClotheBinding((ConstraintLayout) rootView, btnAddClothe, btnSelectImage,
           tilClotheDescription, tilClothePrice, tilClotheTittle, tilImgUrl, titulo);
     }
     String missingId = rootView.getResources().getResourceName(id);

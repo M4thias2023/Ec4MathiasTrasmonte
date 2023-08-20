@@ -65,8 +65,9 @@ class LoginActivity : AppCompatActivity() {
                     val intent = Intent(this,MainActivity::class.java)
                     startActivity(intent)
                     finish()
+                    FancyToast.makeText(this, "Bienvenido!", FancyToast.LENGTH_SHORT, FancyToast.SUCCESS, true).show()
                 }else{
-                    Toast.makeText(this,"Ocurrió un error",Toast.LENGTH_SHORT).show()
+                    FancyToast.makeText(this, "Ocurrió un error", FancyToast.LENGTH_SHORT, FancyToast.ERROR, true).show()
                 }
             }
     }
@@ -116,7 +117,12 @@ class LoginActivity : AppCompatActivity() {
     private fun signInWithEmailPassword() {
         val email = binding.tilEmail.editText?.text.toString()
         val password = binding.tilPassword.editText?.text.toString()
-        signInFirebaseWithEmail(email, password)
+
+        if(validateInputs(email, password)){
+            signInFirebaseWithEmail(email, password)
+        }else{
+            FancyToast.makeText(this, "Por favor, ingrese un correo y contraseña válidos", FancyToast.LENGTH_SHORT, FancyToast.ERROR, true).show()
+        }
     }
 
     private fun signInFirebaseWithEmail(email: String, password: String) {

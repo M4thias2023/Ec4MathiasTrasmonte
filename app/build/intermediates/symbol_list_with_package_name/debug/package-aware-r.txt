@@ -2730,6 +2730,7 @@ drawable ic_add
 drawable ic_check_black_24dp
 drawable ic_clear_black_24dp
 drawable ic_clock_black_24dp
+drawable ic_file_upload
 drawable ic_info_outline_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2936,6 +2937,7 @@ id btn_add_favorite
 id btn_close_sesion
 id btn_delete_favorite
 id btn_google
+id btn_select_image
 id btn_sign_up
 id btnlogin
 id buttonPanel

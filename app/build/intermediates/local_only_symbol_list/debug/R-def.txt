@@ -79,6 +79,7 @@ drawable emptylist
 drawable emptylistfinal
 drawable empylistcolor
 drawable ic_add
+drawable ic_file_upload
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_playlist_add_circle
@@ -94,6 +95,7 @@ id btn_add_favorite
 id btn_close_sesion
 id btn_delete_favorite
 id btn_google
+id btn_select_image
 id btn_sign_up
 id btnlogin
 id clotheDetailFragment
