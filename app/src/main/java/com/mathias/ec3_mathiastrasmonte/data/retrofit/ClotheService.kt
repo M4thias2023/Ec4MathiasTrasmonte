@@ -1,12 +1,11 @@
-package com.mathias.ec3_mathiastrasmonte.data.retrofit
+package com.mathias.ec4_mathiastrasmonte.data.retrofit
 
-import com.mathias.ec3_mathiastrasmonte.data.response.ClotheListResponse
-import com.mathias.ec3_mathiastrasmonte.model.Clothe
+import com.mathias.ec4_mathiastrasmonte.model.Clothe
 import retrofit2.http.GET
 
 
 interface ClotheService {
-    @GET("products?limit=5")
+    @GET("products?limit=10")
     suspend fun getClothes(): List<Clothe>
 
 }

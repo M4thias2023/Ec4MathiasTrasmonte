@@ -1,17 +1,16 @@
-package com.mathias.ec3_mathiastrasmonte
+package com.mathias.ec4_mathiastrasmonte
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.mathias.ec3_mathiastrasmonte.databinding.ItemClotheBinding
-import com.mathias.ec3_mathiastrasmonte.model.Clothe
+import com.mathias.ec4_mathiastrasmonte.databinding.ItemClotheBinding
+import com.mathias.ec4_mathiastrasmonte.model.Clothe
 
-class RVClotheListAdapter(var clothes: List<Clothe>): RecyclerView.Adapter<ClotheVH>() {
+class RVClotheListAdapter(var clothes: List<Clothe>,val onClick:(Clothe) -> Unit): RecyclerView.Adapter<ClotheVH>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ClotheVH {
         val binding = ItemClotheBinding.inflate(LayoutInflater.from(parent.context),parent,false)
-        return ClotheVH(binding)
+        return ClotheVH(binding, onClick)
     }
     override fun getItemCount(): Int = clothes.size
 
@@ -21,7 +20,7 @@ class RVClotheListAdapter(var clothes: List<Clothe>): RecyclerView.Adapter<Cloth
 }
 
 
-class ClotheVH(private val binding: ItemClotheBinding) : RecyclerView.ViewHolder(binding.root){
+class ClotheVH(private val binding: ItemClotheBinding, val onClick: (Clothe) -> Unit) : RecyclerView.ViewHolder(binding.root){
     fun bind(clothe: Clothe){
         Glide
             .with(binding.root.context)
@@ -30,5 +29,8 @@ class ClotheVH(private val binding: ItemClotheBinding) : RecyclerView.ViewHolder
         binding.txtTitulo.text= clothe.title
         binding.txtPrecio.text = "S/.${clothe.price}"
         binding.txtDescripcion.text = clothe.description
+        binding.root.setOnClickListener {
+            onClick(clothe)
+        }
     }
 }

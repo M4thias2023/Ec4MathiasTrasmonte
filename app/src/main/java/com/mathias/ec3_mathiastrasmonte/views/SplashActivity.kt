@@ -1,10 +1,10 @@
-package com.mathias.ec3_mathiastrasmonte.views
+package com.mathias.ec4_mathiastrasmonte.views
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
-import com.mathias.ec3_mathiastrasmonte.R
+import com.mathias.ec4_mathiastrasmonte.R
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

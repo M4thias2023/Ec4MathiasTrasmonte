@@ -1,13 +1,12 @@
-package com.mathias.ec3_mathiastrasmonte.views
+package com.mathias.ec4_mathiastrasmonte.views
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Patterns
 import android.widget.Toast
-import com.mathias.ec3_mathiastrasmonte.R
 import androidx.core.widget.addTextChangedListener
-import com.mathias.ec3_mathiastrasmonte.databinding.ActivityLoginBinding
+import com.mathias.ec4_mathiastrasmonte.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity() {
     private lateinit var binding: ActivityLoginBinding

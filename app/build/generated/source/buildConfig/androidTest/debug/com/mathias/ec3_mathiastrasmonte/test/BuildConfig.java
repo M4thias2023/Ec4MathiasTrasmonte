@@ -1,7 +1,7 @@
 /**
  * Automatically generated file. DO NOT MODIFY
  */
-package com.mathias.ec3_mathiastrasmonte.test;
+package com.mathias.ec4_mathiastrasmonte.test;
 
 public final class BuildConfig {
   public static final boolean DEBUG = Boolean.parseBoolean("true");
