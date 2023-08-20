@@ -109,7 +109,7 @@ class LoginActivity : AppCompatActivity() {
 
                 }
         }else{
-            Toast.makeText(this,"Credenciales no validas",Toast.LENGTH_SHORT).show()
+            FancyToast.makeText(this,"Credenciales no validas !",FancyToast.LENGTH_LONG,FancyToast.ERROR,true).show()
         }
     }
 
@@ -128,7 +128,7 @@ class LoginActivity : AppCompatActivity() {
                     startActivity(intent)
                     finish()
                 }else{
-                    Toast.makeText(this,"El usuario no se encontró",Toast.LENGTH_SHORT).show()
+                    FancyToast.makeText(this,"El usuario no se encontró !",FancyToast.LENGTH_LONG,FancyToast.ERROR,true).show()
                 }
             }
     }
@@ -145,7 +145,8 @@ class LoginActivity : AppCompatActivity() {
 
     private fun validateInputs(email: String, password: String): Boolean{
         val isEmailOk= email.isNotEmpty() && Patterns.EMAIL_ADDRESS.matcher(email).matches()
-        return isEmailOk
+        val isPasswordOk = password.isNotEmpty()
+        return isEmailOk && isPasswordOk
     }
 
 

@@ -13,8 +13,7 @@
         tools:layout="@layout/fragment_clothe_favorite" >
         <action
             android:id="@+id/action_clotheFavoriteFragment_to_clotheDetailFragment"
-            app:destination="@id/clotheDetailFragment"
-            app:popUpTo="@id/clotheFavoriteFragment" />
+            app:destination="@id/clotheDetailFragment" />
     </fragment>
     <fragment
         android:id="@+id/infoFragment"
@@ -28,8 +27,7 @@
         tools:layout="@layout/fragment_clothe_list" >
         <action
             android:id="@+id/action_clotheListFragment_to_clotheDetailFragment"
-            app:destination="@id/clotheDetailFragment"
-            app:popUpTo="@id/clotheDetailFragment" />
+            app:destination="@id/clotheDetailFragment" />
     </fragment>
     <fragment
         android:id="@+id/clotheDetailFragment"

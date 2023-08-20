@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:elevation="10dp"
+    app:cardCornerRadius="10dp"
+    android:minHeight="200dp"
+    android:layout_marginHorizontal="35dp"
+    android:layout_marginVertical="15dp"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_middle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.50" />
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@color/md_theme_light_onSecondary"
+            app:layout_constraintBottom_toTopOf="@+id/guideline_middle"
+            >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:contentDescription="@null"
+                android:layout_gravity="center"
+                android:src="@drawable/dresspng"
+                app:layout_constraintBottom_toTopOf="@+id/guideline_middle"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </FrameLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline_middle"
+            app:layout_constraintVertical_bias="0.0"
+            >
+
+            <TextView
+                android:fontFamily="@font/poppins_medium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#6b6b6b"
+                android:text="Nombre:"
+                android:textSize="11sp"/>
+
+            <TextView
+                android:fontFamily="@font/poppins_medium"
+                android:id="@+id/txt_Titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                tools:text="Vestido Dos Colores " />
+
+            <TextView
+                android:fontFamily="@font/poppins_medium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="11sp"
+                android:textColor="#6b6b6b"
+                android:text="Precio (S/.):"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:fontFamily="@font/poppins_medium"
+                android:id="@+id/txt_Precio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:text="30"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:textColor="#6b6b6b"
+                android:layout_marginTop="10dp"
+                android:text="Descripcion"/>
+
+            <TextView
+                android:fontFamily="@font/poppins_medium"
+                android:id="@+id/txt_Descripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:text="Vestido Dos Colores " />
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
