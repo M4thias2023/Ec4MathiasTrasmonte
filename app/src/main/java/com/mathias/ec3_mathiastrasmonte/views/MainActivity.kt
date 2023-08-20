@@ -1,11 +1,11 @@
-package com.mathias.ec4_mathiastrasmonte.views
+package com.mathias.ec3_mathiastrasmonte.views
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
-import com.mathias.ec4_mathiastrasmonte.R
-import com.mathias.ec4_mathiastrasmonte.databinding.ActivityMainBinding
+import com.mathias.ec3_mathiastrasmonte.R
+import com.mathias.ec3_mathiastrasmonte.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding

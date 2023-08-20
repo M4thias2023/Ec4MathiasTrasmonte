@@ -1,4 +1,4 @@
-package com.mathias.ec4_mathiastrasmonte.views.fragments
+package com.mathias.ec3_mathiastrasmonte.views.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,8 +9,8 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.mathias.ec4_mathiastrasmonte.RVClotheListAdapter
-import com.mathias.ec4_mathiastrasmonte.databinding.FragmentClotheListBinding
+import com.mathias.ec3_mathiastrasmonte.RVClotheListAdapter
+import com.mathias.ec3_mathiastrasmonte.databinding.FragmentClotheListBinding
 
 class ClotheListFragment : Fragment() {
 

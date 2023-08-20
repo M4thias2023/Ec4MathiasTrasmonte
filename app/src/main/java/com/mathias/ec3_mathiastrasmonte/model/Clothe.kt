@@ -1,4 +1,4 @@
-package com.mathias.ec4_mathiastrasmonte.model
+package com.mathias.ec3_mathiastrasmonte.model
 
 import android.os.Parcelable
 import androidx.room.Entity
@@ -13,7 +13,8 @@ data class Clothe(
     val image: String,
     val title: String,
     val price: String,
-    val description: String
+    val description: String,
+    var isFavorite: Boolean = false
 ): Parcelable
 
 

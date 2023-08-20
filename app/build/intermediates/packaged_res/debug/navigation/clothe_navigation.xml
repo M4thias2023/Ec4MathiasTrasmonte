@@ -13,7 +13,8 @@
         tools:layout="@layout/fragment_clothe_favorite" >
         <action
             android:id="@+id/action_clotheFavoriteFragment_to_clotheDetailFragment"
-            app:destination="@id/clotheDetailFragment" />
+            app:destination="@id/clotheDetailFragment"
+            app:popUpTo="@id/clotheFavoriteFragment" />
     </fragment>
     <fragment
         android:id="@+id/infoFragment"
@@ -27,11 +28,29 @@
         tools:layout="@layout/fragment_clothe_list" >
         <action
             android:id="@+id/action_clotheListFragment_to_clotheDetailFragment"
-            app:destination="@id/clotheDetailFragment" />
+            app:destination="@id/clotheDetailFragment"
+            app:popUpTo="@id/clotheDetailFragment" />
     </fragment>
     <fragment
         android:id="@+id/clotheDetailFragment"
         android:name="com.mathias.ec3_mathiastrasmonte.views.fragments.ClotheDetailFragment"
         android:label="fragment_clothe_detail"
-        tools:layout="@layout/fragment_clothe_detail" />
+        tools:layout="@layout/fragment_clothe_detail" >
+        <argument
+            android:name="clothe"
+            app:argType="com.mathias.ec3_mathiastrasmonte.model.Clothe" />
+        <action
+            android:id="@+id/action_clotheDetailFragment_to_clotheFavoriteFragment"
+            app:destination="@id/clotheFavoriteFragment" />
+    </fragment>
+    <activity
+        android:id="@+id/addClotheActivity"
+        android:name="com.mathias.ec3_mathiastrasmonte.views.AddClotheActivity"
+        android:label="activity_add_clothe"
+        tools:layout="@layout/activity_add_clothe" />
+    <fragment
+        android:id="@+id/firebaseListFragment"
+        android:name="com.mathias.ec3_mathiastrasmonte.views.fragments.FirebaseListFragment"
+        android:label="fragment_firebase_list"
+        tools:layout="@layout/fragment_firebase_list" />
 </navigation>

@@ -1,11 +1,11 @@
-package com.mathias.ec4_mathiastrasmonte.views.fragments
+package com.mathias.ec3_mathiastrasmonte.views.fragments
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.mathias.ec4_mathiastrasmonte.data.repository.ClotheRepository
-import com.mathias.ec4_mathiastrasmonte.data.response.ApiResponse
-import com.mathias.ec4_mathiastrasmonte.model.Clothe
+import com.mathias.ec3_mathiastrasmonte.data.repository.ClotheRepository
+import com.mathias.ec3_mathiastrasmonte.data.response.ApiResponse
+import com.mathias.ec3_mathiastrasmonte.model.Clothe
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

@@ -11,9 +11,16 @@
           android:icon="@drawable/baseline_favorite_24"
           android:id="@+id/clotheFavoriteFragment"
         />
+    <item
+        android:id="@+id/firebaseListFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_playlist_add_circle"
+        android:title="Firebase List" />
+
     <item android:title="Info"
           android:enabled="true"
           android:icon="@drawable/baseline_info_24"
         android:id="@+id/infoFragment"
         />
+
 </menu>

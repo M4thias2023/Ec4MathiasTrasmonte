@@ -1,9 +1,8 @@
-package com.mathias.ec4_mathiastrasmonte.data.retrofit
+package com.mathias.ec3_mathiastrasmonte.data.retrofit
 
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-
 
 object ServiceInstance {
     private val retrofit= Retrofit.Builder()

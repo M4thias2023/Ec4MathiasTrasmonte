@@ -1,9 +1,9 @@
-package com.mathias.ec4_mathiastrasmonte.data.repository
+package com.mathias.ec3_mathiastrasmonte.data.repository
 
-import com.mathias.ec4_mathiastrasmonte.data.db.ClotheDao
-import com.mathias.ec4_mathiastrasmonte.data.response.ApiResponse
-import com.mathias.ec4_mathiastrasmonte.data.retrofit.ServiceInstance
-import com.mathias.ec4_mathiastrasmonte.model.Clothe
+import com.mathias.ec3_mathiastrasmonte.data.db.ClotheDao
+import com.mathias.ec3_mathiastrasmonte.data.response.ApiResponse
+import com.mathias.ec3_mathiastrasmonte.data.retrofit.ServiceInstance
+import com.mathias.ec3_mathiastrasmonte.model.Clothe
 import java.lang.Exception
 
 class ClotheRepository(val clotheDao: ClotheDao? = null) {
@@ -20,6 +20,12 @@ class ClotheRepository(val clotheDao: ClotheDao? = null) {
     suspend fun addFavorite(clothe: Clothe){
         clotheDao?.let {
             it.addFavorite(clothe)
+        }
+    }
+
+    suspend fun removeFavorite(clothe: Clothe) {
+        clotheDao?.let {
+            it.removeFavorite(clothe)
         }
     }
 

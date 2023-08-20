@@ -4,7 +4,7 @@
             "outputFile": "com.mathias.ec3_mathiastrasmonte.test.app-mergeDebugAndroidTestResources-4:/values-v18/values-v18.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\mathi\\.gradle\\caches\\transforms-3\\d0a110f67fd75382f6f8012b1a43ddc4\\transformed\\core-1.5.0\\res\\values-v18\\values.xml",
+                    "source": "C:\\Users\\mathi\\.gradle\\caches\\transforms-3\\f97b2c2f0e0fe109ba5bb578fe4db4eb\\transformed\\core-1.5.0\\res\\values-v18\\values.xml",
                     "from": {
                         "startLines": "4,12",
                         "startColumns": "0,0",

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.mathias.ec3_mathiastrasmonte.app-mergeDebugResources-51:/values-v25/values-v25.xml",
+            "outputFile": "com.mathias.ec3_mathiastrasmonte.app-mergeDebugResources-61:/values-v25/values-v25.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\mathi\\.gradle\\caches\\transforms-3\\3e0b6e4cd00ec1094432a441bef118ac\\transformed\\appcompat-1.6.1\\res\\values-v25\\values-v25.xml",
+                    "source": "C:\\Users\\mathi\\.gradle\\caches\\transforms-3\\0df181357e52a7935297e7158b543ee1\\transformed\\appcompat-1.6.1\\res\\values-v25\\values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

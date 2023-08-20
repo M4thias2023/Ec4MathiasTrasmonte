@@ -1,4 +1,4 @@
-package com.mathias.ec4_mathiastrasmonte.data.response
+package com.mathias.ec3_mathiastrasmonte.data.response
 import java.lang.Exception
 
 sealed class ApiResponse<T>(data: T?=null, exception:Exception?=null){

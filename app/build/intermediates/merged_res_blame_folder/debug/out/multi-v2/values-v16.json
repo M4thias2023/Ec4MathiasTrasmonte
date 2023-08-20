@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.mathias.ec3_mathiastrasmonte.app-mergeDebugResources-51:/values-v16/values-v16.xml",
+            "outputFile": "com.mathias.ec3_mathiastrasmonte.app-mergeDebugResources-61:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\mathi\\.gradle\\caches\\transforms-3\\3e0b6e4cd00ec1094432a441bef118ac\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\mathi\\.gradle\\caches\\transforms-3\\0df181357e52a7935297e7158b543ee1\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\mathi\\.gradle\\caches\\transforms-3\\24c8031572ced1a9ec505ef2513af626\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\mathi\\.gradle\\caches\\transforms-3\\58ce90cb94b5b4261926e1097d0467b4\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

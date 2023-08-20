@@ -4,6 +4,7 @@ package com.mathias.ec3_mathiastrasmonte.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -20,10 +21,15 @@ public final class FragmentInfoBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
+  public final Button btnCloseSesion;
+
+  @NonNull
   public final TextView textView;
 
-  private FragmentInfoBinding(@NonNull FrameLayout rootView, @NonNull TextView textView) {
+  private FragmentInfoBinding(@NonNull FrameLayout rootView, @NonNull Button btnCloseSesion,
+      @NonNull TextView textView) {
     this.rootView = rootView;
+    this.btnCloseSesion = btnCloseSesion;
     this.textView = textView;
   }
 
@@ -54,13 +60,19 @@ public final class FragmentInfoBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btn_close_sesion;
+      Button btnCloseSesion = ViewBindings.findChildViewById(rootView, id);
+      if (btnCloseSesion == null) {
+        break missingId;
+      }
+
       id = R.id.textView;
       TextView textView = ViewBindings.findChildViewById(rootView, id);
       if (textView == null) {
         break missingId;
       }
 
-      return new FragmentInfoBinding((FrameLayout) rootView, textView);
+      return new FragmentInfoBinding((FrameLayout) rootView, btnCloseSesion, textView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

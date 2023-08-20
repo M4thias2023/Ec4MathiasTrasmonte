@@ -4,25 +4,68 @@ package com.mathias.ec3_mathiastrasmonte.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.FrameLayout;
+import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.constraintlayout.widget.Guideline;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.mathias.ec3_mathiastrasmonte.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentClotheDetailBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ConstraintLayout rootView;
 
-  private FragmentClotheDetailBinding(@NonNull FrameLayout rootView) {
+  @NonNull
+  public final Button btnAddFavorite;
+
+  @NonNull
+  public final Button btnDeleteFavorite;
+
+  @NonNull
+  public final FrameLayout flBackgroundCoupon;
+
+  @NonNull
+  public final Guideline guidelineTop;
+
+  @NonNull
+  public final ImageView imgClothe;
+
+  @NonNull
+  public final TextView txtDescripcion;
+
+  @NonNull
+  public final TextView txtPrecio;
+
+  @NonNull
+  public final TextView txtTitulo;
+
+  private FragmentClotheDetailBinding(@NonNull ConstraintLayout rootView,
+      @NonNull Button btnAddFavorite, @NonNull Button btnDeleteFavorite,
+      @NonNull FrameLayout flBackgroundCoupon, @NonNull Guideline guidelineTop,
+      @NonNull ImageView imgClothe, @NonNull TextView txtDescripcion, @NonNull TextView txtPrecio,
+      @NonNull TextView txtTitulo) {
     this.rootView = rootView;
+    this.btnAddFavorite = btnAddFavorite;
+    this.btnDeleteFavorite = btnDeleteFavorite;
+    this.flBackgroundCoupon = flBackgroundCoupon;
+    this.guidelineTop = guidelineTop;
+    this.imgClothe = imgClothe;
+    this.txtDescripcion = txtDescripcion;
+    this.txtPrecio = txtPrecio;
+    this.txtTitulo = txtTitulo;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -43,10 +86,63 @@ public final class FragmentClotheDetailBinding implements ViewBinding {
 
   @NonNull
   public static FragmentClotheDetailBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.btn_add_favorite;
+      Button btnAddFavorite = ViewBindings.findChildViewById(rootView, id);
+      if (btnAddFavorite == null) {
+        break missingId;
+      }
 
-    return new FragmentClotheDetailBinding((FrameLayout) rootView);
+      id = R.id.btn_delete_favorite;
+      Button btnDeleteFavorite = ViewBindings.findChildViewById(rootView, id);
+      if (btnDeleteFavorite == null) {
+        break missingId;
+      }
+
+      id = R.id.fl_background_coupon;
+      FrameLayout flBackgroundCoupon = ViewBindings.findChildViewById(rootView, id);
+      if (flBackgroundCoupon == null) {
+        break missingId;
+      }
+
+      id = R.id.guideline_top;
+      Guideline guidelineTop = ViewBindings.findChildViewById(rootView, id);
+      if (guidelineTop == null) {
+        break missingId;
+      }
+
+      id = R.id.img_clothe;
+      ImageView imgClothe = ViewBindings.findChildViewById(rootView, id);
+      if (imgClothe == null) {
+        break missingId;
+      }
+
+      id = R.id.txt_Descripcion;
+      TextView txtDescripcion = ViewBindings.findChildViewById(rootView, id);
+      if (txtDescripcion == null) {
+        break missingId;
+      }
+
+      id = R.id.txt_Precio;
+      TextView txtPrecio = ViewBindings.findChildViewById(rootView, id);
+      if (txtPrecio == null) {
+        break missingId;
+      }
+
+      id = R.id.txt_Titulo;
+      TextView txtTitulo = ViewBindings.findChildViewById(rootView, id);
+      if (txtTitulo == null) {
+        break missingId;
+      }
+
+      return new FragmentClotheDetailBinding((ConstraintLayout) rootView, btnAddFavorite,
+          btnDeleteFavorite, flBackgroundCoupon, guidelineTop, imgClothe, txtDescripcion, txtPrecio,
+          txtTitulo);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

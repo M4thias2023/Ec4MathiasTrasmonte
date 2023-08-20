@@ -78,9 +78,17 @@
     <color name="md_theme_light_tertiary">#A23F00</color>
     <color name="md_theme_light_tertiaryContainer">#FFDBCC</color>
     <color name="seed">#1261a4</color>
-    <string name="app_name">EC3_MathiasTrasmonte</string>
+    <string name="app_name">EC4_MathiasTrasmonte</string>
+    <string name="default_web_client_id" translatable="false">425894933301-kc20s6opic58q0bqj63r8i5343j3mtf3.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">425894933301</string>
+    <string name="google_api_key" translatable="false">AIzaSyD111I1qyFBd0cjSpvu2I6hAp3qYagedwk</string>
+    <string name="google_app_id" translatable="false">1:425894933301:android:a1bb22e8c449eaabe0927c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD111I1qyFBd0cjSpvu2I6hAp3qYagedwk</string>
+    <string name="google_storage_bucket" translatable="false">ec4mathiastrasmonte.appspot.com</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <style name="AppTheme" parent="Theme.Material3.Light.NoActionBar">
+    <string name="project_id" translatable="false">ec4mathiastrasmonte</string>
+    <string name="web_client_id">111589651526308764737</string>
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/md_theme_light_primary</item>
         <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer</item>

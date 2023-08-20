@@ -12,6 +12,8 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "EC3_MathiasTrasmonte"
+rootProject.name = "EC4_MathiasTrasmonte"
 include ':app'
+
+
 

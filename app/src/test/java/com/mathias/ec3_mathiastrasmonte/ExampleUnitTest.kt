@@ -1,4 +1,4 @@
-package com.mathias.ec4_mathiastrasmonte
+package com.mathias.ec3_mathiastrasmonte
 
 import org.junit.Test
 

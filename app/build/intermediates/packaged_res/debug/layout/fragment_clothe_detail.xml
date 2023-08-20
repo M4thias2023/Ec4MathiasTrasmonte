@@ -1,14 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".views.fragments.ClotheDetailFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3"/>
 
-</FrameLayout>
+    <FrameLayout
+        android:id="@+id/fl_background_coupon"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_top"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@color/md_theme_light_onSecondary"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:id="@+id/img_clothe"
+            android:layout_gravity="center"
+            android:contentDescription="@null"
+            android:layout_width="wrap_content"
+            tools:layout_width="280dp"
+            tools:layout_height="130dp"
+            android:layout_margin="20dp"
+            tools:src="@drawable/dresspng"
+            android:layout_height="wrap_content"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fl_background_coupon">
+        <TextView
+            android:fontFamily="@font/poppins_medium"
+            android:id="@+id/txt_Titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            tools:text="Nombre de la prenda"/>
+        <TextView
+            android:id="@+id/txt_Precio"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="3"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            tools:text="S/.108.80"/>
+        <TextView
+            android:layout_marginTop="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="Descripcion: "/>
+        <TextView
+            android:id="@+id/txt_Descripcion"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:ellipsize="end"
+            tools:text="Desciprtsdasdasd adasdas dasd "/>
+        <Button
+            style="@style/Widget.Material3.Button.TonalButton.Icon"
+            android:id="@+id/btn_add_favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingVertical="10dp"
+            android:drawableLeft="@drawable/ic_add"
+            android:textSize="20dp"
+            android:text="Añadir a favoritos" />
+
+        <Button
+            android:id="@+id/btn_delete_favorite"
+            style="@style/Widget.Material3.Button.TonalButton.Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eliminar de favoritos"
+            android:textSize="20dp"
+            android:layout_marginTop="16dp"
+            android:drawableLeft="@drawable/baseline_delete_24"
+            android:paddingVertical="10dp"
+            android:backgroundTint="@color/md_theme_dark_error"
+            android:textColor="@color/md_theme_dark_errorContainer"
+            />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

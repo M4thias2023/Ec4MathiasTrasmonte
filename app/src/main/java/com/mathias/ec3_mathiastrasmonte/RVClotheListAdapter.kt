@@ -1,11 +1,12 @@
-package com.mathias.ec4_mathiastrasmonte
+package com.mathias.ec3_mathiastrasmonte
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.mathias.ec4_mathiastrasmonte.databinding.ItemClotheBinding
-import com.mathias.ec4_mathiastrasmonte.model.Clothe
+import com.mathias.ec3_mathiastrasmonte.databinding.ItemClotheBinding
+import com.mathias.ec3_mathiastrasmonte.model.Clothe
+import com.mathias.ec3_mathiastrasmonte.model.ClotheFirebase
 
 class RVClotheListAdapter(var clothes: List<Clothe>,val onClick:(Clothe) -> Unit): RecyclerView.Adapter<ClotheVH>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ClotheVH {
@@ -17,6 +18,7 @@ class RVClotheListAdapter(var clothes: List<Clothe>,val onClick:(Clothe) -> Unit
     override fun onBindViewHolder(holder: ClotheVH, position: Int) {
         holder.bind(clothes[position])
     }
+
 }
 
 
@@ -33,4 +35,6 @@ class ClotheVH(private val binding: ItemClotheBinding, val onClick: (Clothe) -> 
             onClick(clothe)
         }
     }
+
+
 }

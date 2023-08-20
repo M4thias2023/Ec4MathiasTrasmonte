@@ -1,4 +1,4 @@
-package com.mathias.ec4_mathiastrasmonte.views.fragments
+package com.mathias.ec3_mathiastrasmonte.views.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,8 +9,8 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.mathias.ec4_mathiastrasmonte.RVClotheListAdapter
-import com.mathias.ec4_mathiastrasmonte.databinding.FragmentClotheFavoriteBinding
+import com.mathias.ec3_mathiastrasmonte.RVClotheListAdapter
+import com.mathias.ec3_mathiastrasmonte.databinding.FragmentClotheFavoriteBinding
 class ClotheFavoriteFragment : Fragment() {
     private lateinit var binding: FragmentClotheFavoriteBinding
     private lateinit var viewModel: ClotheFavoriteViewModel
@@ -32,15 +32,21 @@ class ClotheFavoriteFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val adapter = RVClotheListAdapter(listOf()){ clothe ->
-            val clotheDetailDirection = ClotheListFragmentDirections.actionClotheListFragmentToClotheDetailFragment(clothe)
+            val clotheDetailDirection = ClotheFavoriteFragmentDirections.actionClotheFavoriteFragmentToClotheDetailFragment(clothe)
             findNavController().navigate(clotheDetailDirection)
         }
         binding.rvClotheList.adapter = adapter
         binding.rvClotheList.layoutManager =GridLayoutManager(requireContext(),1,RecyclerView.VERTICAL,false)
         viewModel.favorites.observe(viewLifecycleOwner) { clothes ->
-            clothes?.let {
-                adapter.clothes = it
-                adapter.notifyDataSetChanged()
+            if(clothes.isNullOrEmpty()){
+                binding.rvClotheList.visibility = View.GONE
+                binding.tvEmptyListMessage.visibility = View.VISIBLE
+                binding.imgEmpty.visibility = View.VISIBLE
+            }else{
+                clothes?.let {
+                    adapter.clothes = it
+                    adapter.notifyDataSetChanged()
+                }
             }
         }
         viewModel.getFavorites()
