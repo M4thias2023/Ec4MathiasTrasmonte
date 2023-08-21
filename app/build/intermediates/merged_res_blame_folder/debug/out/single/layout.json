@@ -16,12 +16,12 @@
         "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-65:\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-mergeDebugResources-62:\\layout\\fragment_info.xml",
-        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-65:\\layout\\fragment_info.xml"
-    },
-    {
         "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-mergeDebugResources-62:\\layout\\item_clothe.xml",
         "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-65:\\layout\\item_clothe.xml"
+    },
+    {
+        "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-mergeDebugResources-62:\\layout\\fragment_info.xml",
+        "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-65:\\layout\\fragment_info.xml"
     },
     {
         "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-mergeDebugResources-62:\\layout\\activity_splash.xml",
@@ -36,15 +36,15 @@
         "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-65:\\layout\\fragment_firebase_list.xml"
     },
     {
-        "merged": "com.mathias.ec3_mathiastrasmonte.app-mergeDebugResources-62:/layout/activity_add_clothe.xml",
-        "source": "com.mathias.ec3_mathiastrasmonte.app-main-65:/layout/activity_add_clothe.xml"
-    },
-    {
         "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-mergeDebugResources-62:\\layout\\fragment_clothe_detail.xml",
         "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-65:\\layout\\fragment_clothe_detail.xml"
     },
     {
         "merged": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-mergeDebugResources-62:\\layout\\activity_firestore.xml",
         "source": "C:\\Users\\mathi\\.gradle\\daemon\\7.5\\com.mathias.ec3_mathiastrasmonte.app-main-65:\\layout\\activity_firestore.xml"
+    },
+    {
+        "merged": "com.mathias.ec3_mathiastrasmonte.app-mergeDebugResources-62:/layout/fragment_clothe_detail.xml",
+        "source": "com.mathias.ec3_mathiastrasmonte.app-main-65:/layout/fragment_clothe_detail.xml"
     }
 ]

@@ -50,13 +50,13 @@
             android:id="@+id/txt_Titulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="19sp"
+            android:textSize="17sp"
             android:textStyle="bold"
             android:ellipsize="end"
             tools:text="Nombre de la prenda"/>
         <TextView
             android:id="@+id/txt_Precio"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:maxLines="3"
@@ -65,7 +65,7 @@
             android:ellipsize="end"
             tools:text="S/.108.80"/>
         <TextView
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="18dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:maxLines="1"
@@ -84,10 +84,10 @@
             android:id="@+id/btn_add_favorite"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:paddingVertical="10dp"
+            android:layout_marginTop="13dp"
+            android:paddingVertical="8dp"
             android:drawableLeft="@drawable/ic_add"
-            android:textSize="20dp"
+            android:textSize="18dp"
             android:text="Añadir a favoritos" />
 
         <Button
@@ -96,8 +96,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Eliminar de favoritos"
-            android:textSize="20dp"
-            android:layout_marginTop="16dp"
+            android:textSize="18sp"
+            android:layout_marginTop="13dp"
             android:drawableLeft="@drawable/baseline_delete_24"
             android:paddingVertical="10dp"
             android:backgroundTint="@color/md_theme_dark_error"

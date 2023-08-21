@@ -133,6 +133,7 @@ class LoginActivity : AppCompatActivity() {
                     val intent = Intent(this, MainActivity::class.java)
                     startActivity(intent)
                     finish()
+                    FancyToast.makeText(this, "Bienvenido!", FancyToast.LENGTH_SHORT, FancyToast.SUCCESS, true).show()
                 }else{
                     FancyToast.makeText(this,"El usuario no se encontró !",FancyToast.LENGTH_LONG,FancyToast.ERROR,true).show()
                 }

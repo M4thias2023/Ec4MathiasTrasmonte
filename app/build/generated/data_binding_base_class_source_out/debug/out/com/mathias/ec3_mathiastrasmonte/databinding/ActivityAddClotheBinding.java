@@ -5,7 +5,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -26,7 +25,7 @@ public final class ActivityAddClotheBinding implements ViewBinding {
   public final Button btnAddClothe;
 
   @NonNull
-  public final ImageButton btnSelectImage;
+  public final Button btnSelectImage;
 
   @NonNull
   public final TextInputLayout tilClotheDescription;
@@ -44,7 +43,7 @@ public final class ActivityAddClotheBinding implements ViewBinding {
   public final TextView titulo;
 
   private ActivityAddClotheBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnAddClothe,
-      @NonNull ImageButton btnSelectImage, @NonNull TextInputLayout tilClotheDescription,
+      @NonNull Button btnSelectImage, @NonNull TextInputLayout tilClotheDescription,
       @NonNull TextInputLayout tilClothePrice, @NonNull TextInputLayout tilClotheTittle,
       @NonNull TextInputLayout tilImgUrl, @NonNull TextView titulo) {
     this.rootView = rootView;
@@ -91,7 +90,7 @@ public final class ActivityAddClotheBinding implements ViewBinding {
       }
 
       id = R.id.btn_select_image;
-      ImageButton btnSelectImage = ViewBindings.findChildViewById(rootView, id);
+      Button btnSelectImage = ViewBindings.findChildViewById(rootView, id);
       if (btnSelectImage == null) {
         break missingId;
       }
